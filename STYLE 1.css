@@ -1,0 +1,366 @@
+*{
+     margin : 0; 
+     padding: 0;
+    font-family : Arial;
+    border : border-box;
+    color:white;
+
+}
+.navbar {
+    height : 60px;
+    background-color: #0F1111; 
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height : 50px;
+    width :113px;
+
+} 
+.logo{
+
+    background-color:yellow;
+
+   background-image: url("C:\Users\sagar\Pictures\Screenshots\Screenshot (17).png"); 
+   background-size: cover;
+   display : flex;
+   height : 50px;
+   width : 100%;
+
+}
+.nav-address{
+    margin-left: 5px;
+
+}
+
+.border:hover{
+    border : 2px solid white;
+    border-radius: 5%;
+
+}
+.address{
+    color : #cccccc;
+    font-size:0.8rem;
+    margin-left:15px;
+}
+.add-icon{
+    color:white;
+    display:flex;
+    align-items: center;
+}
+/* box2 */
+.nav-search{
+    display : flex;
+    justify-content: space-evenly;
+    background-color: #dac646;
+    width : 620px;
+    height : 40px;
+    border-radius : 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    color:black;
+    width : 50px;
+    text-align : center;
+    border-top-left-radius : 4px;
+    border-bottom-left-radius: 4px;
+    border : none;
+}
+.search-select option{
+    color:black;
+
+}
+.search-input{
+    width : 100%;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{ 
+    width : 45px;
+    display : flex;
+    justify-content: center;    
+    align-items:center;
+    font-size : 1.2rem;
+
+}
+.nav-signin{
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding:5px 5px 5px 5px;
+
+}
+.nav-second{
+    font-size:0.85rem;
+    font-weight:700;
+}
+span{
+    font-size : 0.79rem;
+}
+.nav-return{
+    color:white;
+    padding:5px 5px 5px 5px;
+}
+.nav-search:hover{
+    border:3px solid orange;
+}
+.nav-cart i{
+    font-size:32px;
+}
+.nav-cart{
+    font-size:0.85rem;
+    font-weight:700;
+    padding:3px 3px 3px 3px;
+}
+
+
+/* panel */
+.panel{
+    background-color:#222f3d ;
+    height:40px;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-options{
+    display:flex;
+    /* justify-content: space-evenly; */
+    width:70%;
+    /* margin-left:10px; */
+}
+.panel-options p{
+    font-size: 14px;
+    display : inline;
+    margin-left:15px;
+}
+.panel-deals{
+    font-size:16px  ;
+    font-weight: 800;
+}
+.pcpic{
+    background-image: url("https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg");
+    background-size: cover;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* margin-bottom: 100px; */
+
+}
+.bar{
+    background-color:white;
+    height:40px;
+    width:90%;
+    position:relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+/* shop section*/
+.all{
+    flex-wrap :wrap;
+    justify-content: space-around;
+}
+
+h3{
+    color:black;
+    margin:5px 0px 5px 0px;
+}
+.box{
+    margin:10px 10px 10px 10px;
+    height:100%;
+    width:100%;
+
+}
+.shop-section{
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    background-color: rgb(243, 235, 235) ;
+    padding-top: 15px;
+}
+.box1{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box2{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box3{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box4{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box-img1{
+    height:87%;
+    width:100%;
+    background-image: url(https://m.media-amazon.com/images/I/51WMiee5Q0L._AC_UY218_.jpg);
+    bac
+    background-size: cover;
+
+}
+.box-img2{
+    height:76%;
+    width:100%;
+    background-image: url(https://m.media-amazon.com/images/I/71nf3k44snL._AC_UY218_.jpg);
+    background-size: cover;
+}
+.box-img3{
+    height:84%;
+    width:85%;
+    margin-left:20px;
+    background-image: url(https://m.media-amazon.com/images/I/91QUc9lhtLL._AC_UL320_.jpg);
+    background-size: cover;
+}
+.box-img4{
+    height:50%;
+    width:93%;
+    margin-top:40px;
+    background-image: url(https://m.media-amazon.com/images/I/61sX8xSV5TL._AC_UY218_.jpg);
+    background-size: cover;
+}
+
+/*shop section 1*/
+.shop-section1{
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    background-color: rgb(243, 235, 235) ;
+}
+.box5{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box6{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box7{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box8{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box-img5{
+    height:87%;
+    width:100%;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v10._SY304_CB573698005_.jpg);
+    background-size: cover;
+
+}
+.box-img6{
+    height: 87% ;
+    /* width: ; */
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/XCM_CUTTLE_1622894_3373440_379x304_1X_en_size1_US._SY304_CB597469214_.jpg);
+    background-size: cover;
+}
+.box-img7{
+    height: 80%;
+    background-image: url(https://m.media-amazon.com/images/I/51Ud-2hWlGL._AC_UF226,226_FMjpg_.jpg);
+    background-size: cover;
+}
+.box-img8{
+    height:87%;
+    width:80%;
+    background-image:url(https://m.media-amazon.com/images/I/71m09hEhnwL._AC_UY327_FMwebp_QL65_.jpg);
+    background-size: cover;
+}
+
+/** shop section3**/
+.shop-section3{
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    background-color: rgb(243, 235, 235) ;
+    padding-bottom: 30px;
+}
+.box9{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box10{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+} 
+.box11{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}
+.box12{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin:20px 0px 20px 0px;
+}  
+.box-img9{
+    height:87%;
+    width:100%;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg);
+    background-size: cover;
+
+} 
+.box-img10{
+    height: 87% ;
+     background-image: url(https://m.media-amazon.com/images/I/61wdXEjQbXL._AC_UL480_FMwebp_QL65_.jpg);
+    background-size: cover;
+}
+.box-img11{
+    height: 90%;
+    width:90;
+    background-image: url(https://m.media-amazon.com/images/I/61x64u2sSiL._AC_UY327_FMwebp_QL65_.jpg);
+    background-size: cover;
+}
+.box-img12{
+    height:87%;
+    width:100%;
+    background-image:url(https://m.media-amazon.com/images/I/71y+n1RHUvL._AC_UL480_FMwebp_QL65_.jpg);
+    background-size: cover;
+}  
+
+
+/** Footer **/
+.foot-page{
+    height:100px;
+    background-color :#232f23; 
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-page1{
+    height:200px;
+    /* width:100%; */
+    background-color:#232F3E;
+}
